@@ -150,7 +150,14 @@ def q8():
 
 
 def q9():
-    pass
+    with Session(engine) as session:
+        stmt = select(Author)
+        res = session.execute(stmt).scalars().all()
+        for r in res:
+            print(r.full_name, len(r.books))
+
+
+# q9()
 
 
 def q10():
@@ -165,4 +172,11 @@ def q10():
 # q10()
 
 def q11():
-    pass
+    with Session(engine) as session:
+        stmt = select(Book.title,Author.full_name).join(Author, Author.id == Book.author_id)
+        res = session.execute(stmt).all()
+        for r in res:
+            print(r.title,' | ', r.full_name)
+
+
+q11()
