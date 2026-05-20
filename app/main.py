@@ -173,10 +173,9 @@ def q10():
 
 def q11():
     with Session(engine) as session:
-        stmt = select(Book.title,Author.full_name).join(Author, Author.id == Book.author_id)
+        stmt = select(Book.title, Author.full_name).join(Author, Author.id == Book.author_id)
         res = session.execute(stmt).all()
         for r in res:
-            print(r.title,' | ', r.full_name)
+            print(r.title, ' | ', r.full_name)
 
-
-q11()
+# q11()
