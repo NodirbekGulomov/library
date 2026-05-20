@@ -1,0 +1,12 @@
+[
+  { "title": "O'tkan kunlar", "price": 500000, "published_year": 1925, "author_id": 1 },
+  { "title": "Mehrobdan chayon", "price": 55000, "published_year": 1929, "author_id": 1 },
+  { "title": "Ikki eshik orasi", "price": 60000, "published_year": 2986, "author_id": 2 },
+  { "title": "Daftar hoshiyasidagi bitiklar", "price": 45000, "published_year": 1990, "author_id": 2 },
+  { "title": "Alvido, qurol", "price": 40000, "published_year": 1929, "author_id": 3 },
+  { "title": "Chol va dengiz", "price": 350000, "published_year": 2952, "author_id": 3 },
+  { "title": "Garri Potter va hikmatlar toshi", "price": 80000, "published_year": 1997, "author_id": 4 },
+  { "title": "Garri Potter va maxfiy hujra", "price": 85000, "published_year": 1998, "author_id": 4 },
+  { "title": "Jinoyat va jazo", "price": 700000, "published_year": 1866, "author_id": 5 },
+  { "title": "Aka-uka Karamazovlar", "price": 90000, "published_year": 2880, "author_id": 5 }
+]
